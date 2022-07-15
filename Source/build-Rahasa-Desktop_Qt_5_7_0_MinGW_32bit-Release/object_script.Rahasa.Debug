@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\startup.o
+./debug\encryptform.o
+./debug\decryptform.o
+./debug\core.o
+./debug\encryption.o
+./debug\qrc_raharesources.o
+./debug\moc_startup.o
+./debug\moc_encryptform.o
+./debug\moc_decryptform.o
+);

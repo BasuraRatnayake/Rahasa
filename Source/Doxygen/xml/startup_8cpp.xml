@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="startup_8cpp" kind="file" language="C++">
+    <compoundname>startup.cpp</compoundname>
+    <includes refid="startup_8h" local="yes">startup.h</includes>
+    <includes local="yes">ui_startup.h</includes>
+    <includes local="yes">QDebug</includes>
+    <includes refid="encryptform_8h" local="yes">encryptform.h</includes>
+    <includes refid="decryptform_8h" local="yes">decryptform.h</includes>
+    <incdepgraph>
+      <node id="137">
+        <label>QMessageBox</label>
+      </node>
+      <node id="141">
+        <label>qmath.h</label>
+      </node>
+      <node id="142">
+        <label>QClipboard</label>
+      </node>
+      <node id="131">
+        <label>startup.cpp</label>
+        <link refid="startup_8cpp"/>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>decryptform.h</label>
+        <link refid="decryptform_8h"/>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>QFileDialog</label>
+      </node>
+      <node id="143">
+        <label>QApplication</label>
+      </node>
+      <node id="138">
+        <label>QDebug</label>
+      </node>
+      <node id="134">
+        <label>core.h</label>
+        <link refid="core_8h"/>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>QWidget</label>
+      </node>
+      <node id="139">
+        <label>QLineEdit</label>
+      </node>
+      <node id="136">
+        <label>QString</label>
+      </node>
+      <node id="145">
+        <label>encryptform.h</label>
+        <link refid="encryptform_8h"/>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>encryption.h</label>
+        <link refid="encryption_8h"/>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>startup.h</label>
+        <link refid="startup_8h"/>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>ui_startup.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="startup_8h" kindref="compound">startup.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_startup.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;QDebug&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="encryptform_8h" kindref="compound">encryptform.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="decryptform_8h" kindref="compound">decryptform.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_start_up_1a8df20d71c2bed10b67875067eb8d67a4" refkind="member"><highlight class="normal"><ref refid="class_start_up_1a8df20d71c2bed10b67875067eb8d67a4" kindref="member">StartUp::StartUp</ref>(<ref refid="class_q_widget" kindref="compound">QWidget</ref><sp/>*parent)<sp/>:<sp/><ref refid="class_q_widget" kindref="compound">QWidget</ref>(parent),<sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="class_start_up" kindref="compound">StartUp</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_start_up_1aec41633191799fe596459a1a47fe03c3" refkind="member"><highlight class="normal"><ref refid="class_start_up_1aec41633191799fe596459a1a47fe03c3" kindref="member">StartUp::~StartUp</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>StartUp::on_btnEnter_clicked(){</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>core.<ref refid="class_core_1ad3503f8f37ca8f8f31bbdefb273a9f78" kindref="member">showForm</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_encrypt_form" kindref="compound">EncryptForm</ref>(),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>StartUp::on_btnRTruth_clicked(){</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>core.<ref refid="class_core_1ad3503f8f37ca8f8f31bbdefb273a9f78" kindref="member">showForm</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_decrypt_form" kindref="compound">DecryptForm</ref>(),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="startup.cpp"/>
+  </compounddef>
+</doxygen>

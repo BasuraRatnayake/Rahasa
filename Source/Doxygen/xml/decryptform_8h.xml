@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="decryptform_8h" kind="file" language="C++">
+    <compoundname>decryptform.h</compoundname>
+    <includes local="no">QWidget</includes>
+    <includes refid="core_8h" local="yes">core.h</includes>
+    <includedby refid="decryptform_8cpp" local="yes">decryptform.cpp</includedby>
+    <includedby refid="startup_8cpp" local="yes">startup.cpp</includedby>
+    <incdepgraph>
+      <node id="55">
+        <label>QMessageBox</label>
+      </node>
+      <node id="59">
+        <label>qmath.h</label>
+      </node>
+      <node id="60">
+        <label>QClipboard</label>
+      </node>
+      <node id="50">
+        <label>decryptform.h</label>
+        <link refid="decryptform_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>QFileDialog</label>
+      </node>
+      <node id="61">
+        <label>QApplication</label>
+      </node>
+      <node id="56">
+        <label>QDebug</label>
+      </node>
+      <node id="52">
+        <label>core.h</label>
+        <link refid="core_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>QWidget</label>
+      </node>
+      <node id="57">
+        <label>QLineEdit</label>
+      </node>
+      <node id="54">
+        <label>QString</label>
+      </node>
+      <node id="58">
+        <label>encryption.h</label>
+        <link refid="encryption_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="64">
+        <label>startup.cpp</label>
+        <link refid="startup_8cpp"/>
+      </node>
+      <node id="62">
+        <label>decryptform.h</label>
+        <link refid="decryptform_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>decryptform.cpp</label>
+        <link refid="decryptform_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_decrypt_form" prot="public">DecryptForm</innerclass>
+    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DECRYPTFORM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DECRYPTFORM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core_8h" kindref="compound">core.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_ui" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_decrypt_form" kindref="compound">DecryptForm</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_decrypt_form" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_decrypt_form" kindref="compound">DecryptForm</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_q_widget" kindref="compound">QWidget</ref>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_decrypt_form" kindref="compound">DecryptForm</ref>(<ref refid="class_q_widget" kindref="compound">QWidget</ref><sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="class_decrypt_form" kindref="compound">DecryptForm</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_btnHome_clicked();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_btnBrowse_clicked();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_btnDecrypt_clicked();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ui::DecryptForm<sp/>*ui;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_core" kindref="compound">Core</ref><sp/>core;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>readFile();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>decryptSettings();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>decryptData();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>storeSettings();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>attempts=5;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33" refid="class_decrypt_form_1a16c208fef98e40521b962932602ce0ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QStringList<sp/><ref refid="class_decrypt_form_1a16c208fef98e40521b962932602ce0ff" kindref="member">dataLine</ref>;</highlight></codeline>
+<codeline lineno="34" refid="class_decrypt_form_1a948100789ce9a1613fc4e028609d7f7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_decrypt_form_1a948100789ce9a1613fc4e028609d7f7d" kindref="member">fileEx</ref>;</highlight></codeline>
+<codeline lineno="35" refid="class_decrypt_form_1af0a16237e0a531f3167acd67eae7e69b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_decrypt_form_1af0a16237e0a531f3167acd67eae7e69b" kindref="member">createD</ref>;</highlight></codeline>
+<codeline lineno="36" refid="class_decrypt_form_1a9b9b4da9c4713812a4ef07e8e60dd25a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_decrypt_form_1a9b9b4da9c4713812a4ef07e8e60dd25a" kindref="member">userKey</ref>;</highlight></codeline>
+<codeline lineno="37" refid="class_decrypt_form_1a2a575d06f53701521157379069b573f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_decrypt_form_1a2a575d06f53701521157379069b573f0" kindref="member">prime1</ref>;</highlight></codeline>
+<codeline lineno="38" refid="class_decrypt_form_1ac9b5eaa528b2826f3926e410e6ffa967" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_decrypt_form_1ac9b5eaa528b2826f3926e410e6ffa967" kindref="member">prime2</ref>;</highlight></codeline>
+<codeline lineno="39" refid="class_decrypt_form_1ac0a3281de07c0e2b461652ce12b1ada2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_decrypt_form_1ac0a3281de07c0e2b461652ce12b1ada2" kindref="member">expire</ref>;</highlight></codeline>
+<codeline lineno="40" refid="class_decrypt_form_1ada58fe6ec6a6c8204e30dfdbb9e55bbe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_decrypt_form_1ada58fe6ec6a6c8204e30dfdbb9e55bbe" kindref="member">maxView</ref>;</highlight></codeline>
+<codeline lineno="41" refid="class_decrypt_form_1a6363fdac4c8f9ebbdc902f1b8e3686a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_decrypt_form_1a6363fdac4c8f9ebbdc902f1b8e3686a3" kindref="member">viewC</ref>;</highlight></codeline>
+<codeline lineno="42" refid="class_decrypt_form_1a64370269794155fc85fafa42a1d31913" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_decrypt_form_1a64370269794155fc85fafa42a1d31913" kindref="member">lastView</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>DECRYPTFORM_H</highlight></codeline>
+    </programlisting>
+    <location file="decryptform.h"/>
+  </compounddef>
+</doxygen>

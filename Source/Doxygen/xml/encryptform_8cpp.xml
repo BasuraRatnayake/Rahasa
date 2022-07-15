@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="encryptform_8cpp" kind="file" language="C++">
+    <compoundname>encryptform.cpp</compoundname>
+    <includes refid="encryptform_8h" local="yes">encryptform.h</includes>
+    <includes local="yes">ui_encryptform.h</includes>
+    <includes refid="startup_8h" local="yes">startup.h</includes>
+    <includes local="yes">QDebug</includes>
+    <includes local="no">QProcess</includes>
+    <incdepgraph>
+      <node id="71">
+        <label>QMessageBox</label>
+      </node>
+      <node id="75">
+        <label>qmath.h</label>
+      </node>
+      <node id="76">
+        <label>QClipboard</label>
+      </node>
+      <node id="69">
+        <label>QFileDialog</label>
+      </node>
+      <node id="77">
+        <label>QApplication</label>
+      </node>
+      <node id="72">
+        <label>QDebug</label>
+      </node>
+      <node id="68">
+        <label>core.h</label>
+        <link refid="core_8h"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>QWidget</label>
+      </node>
+      <node id="73">
+        <label>QLineEdit</label>
+      </node>
+      <node id="70">
+        <label>QString</label>
+      </node>
+      <node id="66">
+        <label>encryptform.h</label>
+        <link refid="encryptform_8h"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>QProcess</label>
+      </node>
+      <node id="74">
+        <label>encryption.h</label>
+        <link refid="encryption_8h"/>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>startup.h</label>
+        <link refid="startup_8h"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>encryptform.cpp</label>
+        <link refid="encryptform_8cpp"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>ui_encryptform.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="encryptform_8h" kindref="compound">encryptform.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_encryptform.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="startup_8h" kindref="compound">startup.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;QDebug&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QProcess&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_encrypt_form_1ac5cb0365d73aa360d7aba3a3ceab3d5b" refkind="member"><highlight class="normal"><ref refid="class_encrypt_form_1ac5cb0365d73aa360d7aba3a3ceab3d5b" kindref="member">EncryptForm::EncryptForm</ref>(<ref refid="class_q_widget" kindref="compound">QWidget</ref><sp/>*parent)<sp/>:<sp/><ref refid="class_q_widget" kindref="compound">QWidget</ref>(parent),<sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="class_encrypt_form" kindref="compound">EncryptForm</ref>){</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>QDateTime<sp/>dt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>dt.currentDateTime();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;dtExpire-&gt;setDateTime(dt.currentDateTime());</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" refkind="member"><highlight class="normal"><ref refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" kindref="member">EncryptForm::~EncryptForm</ref>(){</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EncryptForm::on_btnHome_clicked(){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>core.<ref refid="class_core_1ad3503f8f37ca8f8f31bbdefb273a9f78" kindref="member">showForm</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_start_up" kindref="compound">StartUp</ref>(),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EncryptForm::on_btnBrowse_clicked(){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>core.<ref refid="class_core_1adf62d4f996b0cb94dba269110b136dc1" kindref="member">showFiledialog</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Select<sp/>File<sp/>to<sp/>Encrypt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>core.<ref refid="class_core_1a97c1ce83217497c5000ab5454628b7b2" kindref="member">isFileAvailable</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,ui-&gt;le_filename);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EncryptForm::on_btnGenPass_clicked(){</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>core.<ref refid="class_encryption_1a8ddf113b231bf2f60d5714cdf0d07857" kindref="member">setPassword</ref>(core.<ref refid="class_encryption_1a4e2cab5c9d5349f085d40c8373b1985b" kindref="member">generatePassword</ref>(10));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;le_pass-&gt;setText(core.<ref refid="class_encryption_1a55e34ee5668779c478f5771d24c2b183" kindref="member">getPassword</ref>());</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>core.<ref refid="class_core_1a3f943c730fb3d550dd4d7f82667beebb" kindref="member">copyToClipboard</ref>(</highlight><highlight class="stringliteral">&quot;Password:<sp/>&quot;</highlight><highlight class="normal">+core.<ref refid="class_encryption_1a55e34ee5668779c478f5771d24c2b183" kindref="member">getPassword</ref>());</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QMessageBox::about(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Password<sp/>Generated&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>new<sp/>generated<sp/>password<sp/>is:<sp/>&quot;</highlight><highlight class="normal">+<sp/>core.<ref refid="class_encryption_1a55e34ee5668779c478f5771d24c2b183" kindref="member">getPassword</ref>()+</highlight><highlight class="stringliteral">&quot;<sp/>and<sp/>it<sp/>is<sp/>copied<sp/>to<sp/>the<sp/>clipboard&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EncryptForm::on_le_pass_textChanged(){</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>core.<ref refid="class_encryption_1a8ddf113b231bf2f60d5714cdf0d07857" kindref="member">setPassword</ref>(ui-&gt;le_pass-&gt;text());</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EncryptForm::on_chkViews_stateChanged(){</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!ui-&gt;chkViews-&gt;isChecked())</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbTimes-&gt;setEnabled(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;sbTimes-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EncryptForm::on_chkTime_stateChanged(){</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!ui-&gt;chkTime-&gt;isChecked())</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;dtExpire-&gt;setEnabled(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ui-&gt;dtExpire-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EncryptForm::on_btnEncrypt_clicked(){</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(core.<ref refid="class_core_1a97c1ce83217497c5000ab5454628b7b2" kindref="member">isFileAvailable</ref>()<sp/>&amp;&amp;<sp/>core.<ref refid="class_encryption_1a55e34ee5668779c478f5771d24c2b183" kindref="member">getPassword</ref>()<sp/>==<sp/>ui-&gt;le_pass-&gt;text()){</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>finalData[4]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>core.<ref refid="class_core_1aa75cf5dbf2f48a261a8596c42cf99946" kindref="member">getFilename</ref>(),<sp/>core.<ref refid="class_encryption_1a55e34ee5668779c478f5771d24c2b183" kindref="member">getPassword</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>finalData[2]<sp/>=<sp/>(ui-&gt;chkTime-&gt;isChecked()<sp/>!=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)?ui-&gt;dtExpire-&gt;dateTime().toString():</highlight><highlight class="stringliteral">&quot;unlimited&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>finalData[3]<sp/>=<sp/>(ui-&gt;chkViews-&gt;isChecked()<sp/>!=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)?QString::number(ui-&gt;sbTimes-&gt;value()):</highlight><highlight class="stringliteral">&quot;unlimited&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>core.<ref refid="class_encryption_1a737b60a95e826d7a99a3a3f62c9889d2" kindref="member">generateKeys</ref>(0,0);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>prime1<sp/>=<sp/>core.<ref refid="class_encryption_1af133b980f6daf0548a7097623ed35b10" kindref="member">getPrime1</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>prime2<sp/>=<sp/>core.<ref refid="class_encryption_1ab4089ae7185f6c10fcea6b6d697872c2" kindref="member">getPrime2</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QDateTime<sp/>dt<sp/>=<sp/>QDateTime::fromString(QDateTime::currentDateTime().toString(),</highlight><highlight class="stringliteral">&quot;dd<sp/>MMM<sp/>yyyy<sp/>hh:mm&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>dateT<sp/>=<sp/>dt.toString().replace(</highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>data<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&lt;-SECRET-&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFile<sp/>file(core.<ref refid="class_core_1aa75cf5dbf2f48a261a8596c42cf99946" kindref="member">getFilename</ref>());</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(core.<ref refid="class_core_1a97c1ce83217497c5000ab5454628b7b2" kindref="member">isFileAvailable</ref>()<sp/>&amp;&amp;<sp/>file.open(QIODevice::ReadOnly<sp/>|<sp/>QIODevice::Text)){</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QTextStream<sp/>in(&amp;file);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!in.atEnd()){</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>line<sp/>=<sp/>in.readLine();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data+=line;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>in.flush();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox::critical(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Filling<sp/>Missing&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;File<sp/>is<sp/>Missing&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Please<sp/>Check<sp/>the<sp/>availability<sp/>of<sp/>the<sp/>file<sp/>and<sp/>try<sp/>again.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>+=</highlight><highlight class="stringliteral">&quot;&lt;-SECRET-/&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>=<sp/>core.<ref refid="class_encryption_1a764237662a4daa19502e6454126fa279" kindref="member">encrypt</ref>(data);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_core" kindref="compound">Core</ref><sp/>core2;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>core2.<ref refid="class_encryption_1a737b60a95e826d7a99a3a3f62c9889d2" kindref="member">generateKeys</ref>(core2.<ref refid="class_encryption_1ab182872a04d40023eebb199abfe81896" kindref="member">getSysPrime1</ref>(),<sp/>core2.<ref refid="class_encryption_1a4a18c3b332487ec393c3ddf06c39c48f" kindref="member">getSysPrime2</ref>());</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>settings<sp/>=</highlight><highlight class="stringliteral">&quot;&lt;-SETTINGS-&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;fileExtension=&quot;</highlight><highlight class="normal">+file.fileName()+</highlight><highlight class="stringliteral">&quot;;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;createdOn=&quot;</highlight><highlight class="normal">+dateT+</highlight><highlight class="stringliteral">&quot;;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;userKey=&quot;</highlight><highlight class="normal">+finalData[1]+</highlight><highlight class="stringliteral">&quot;;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;primes=&quot;</highlight><highlight class="normal">+QString::number(prime1)+</highlight><highlight class="stringliteral">&quot;|&quot;</highlight><highlight class="normal">+QString::number(prime2)+</highlight><highlight class="stringliteral">&quot;;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;settings=expireOn:&quot;</highlight><highlight class="normal">+finalData[2]+</highlight><highlight class="stringliteral">&quot;|maxViewCount:&quot;</highlight><highlight class="normal">+finalData[3]+</highlight><highlight class="stringliteral">&quot;;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;&lt;-SETTINGS-/&gt;&lt;-DATA-&gt;viewCount=0;lastViewed=&quot;</highlight><highlight class="normal">+dateT+</highlight><highlight class="stringliteral">&quot;;&lt;-DATA-/&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>settings<sp/>=<sp/>core2.<ref refid="class_encryption_1a764237662a4daa19502e6454126fa279" kindref="member">encrypt</ref>(settings);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>=<sp/>settings+data;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>enFilename<sp/>=file.fileName();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>enFilename<sp/>=<sp/>enFilename.split(</highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">)[0]+</highlight><highlight class="stringliteral">&quot;.rashFile&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFile<sp/>enFile(enFilename);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(enFile.open(QIODevice::ReadWrite)){</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QTextStream<sp/>stream(&amp;enFile);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stream&lt;&lt;data&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>enFile.close();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>ZipFile<sp/>=<sp/>enFilename.split(</highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">)[0]+</highlight><highlight class="stringliteral">&quot;.rahasa&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QStringList<sp/>files;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>files.append(enFilename);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>core.zip(enFilename,<sp/>ZipFile);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QStringList<sp/>arguments;//<sp/>/c<sp/>windows<sp/>-c<sp/>linux</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arguments<sp/>&lt;&lt;<sp/>&quot;/c<sp/>explorer<sp/>d:&quot;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QProcess<sp/>exec;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exec.start(&quot;cmd.exe&quot;,<sp/>arguments);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exec.waitForFinished();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/>exec.readAllStandardOutput();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox::about(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Rahasa<sp/>1.0&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;File<sp/>Successfully<sp/>Encrypted.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>core.<ref refid="class_core_1ad3503f8f37ca8f8f31bbdefb273a9f78" kindref="member">showForm</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_start_up" kindref="compound">StartUp</ref>(),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//QString<sp/>decData<sp/>=<sp/>core.decrypt(&quot;NTMSTMKHLHSDC2$33(-&amp;2#<sp/>3<sp/>UHDVNTMSK@RS5HDVDC3GTÿ#DBÿÿÿ#<sp/>3<sp/>&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//qDebug()&lt;&lt;decData;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox::critical(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Insuffient<sp/>Information&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Provide<sp/>all<sp/>the<sp/>information<sp/>requested.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="encryptform.cpp"/>
+  </compounddef>
+</doxygen>

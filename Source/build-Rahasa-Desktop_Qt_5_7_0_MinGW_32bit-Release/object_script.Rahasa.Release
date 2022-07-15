@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\startup.o
+./release\encryptform.o
+./release\decryptform.o
+./release\core.o
+./release\encryption.o
+./release\qrc_raharesources.o
+./release\moc_startup.o
+./release\moc_encryptform.o
+./release\moc_decryptform.o
+);

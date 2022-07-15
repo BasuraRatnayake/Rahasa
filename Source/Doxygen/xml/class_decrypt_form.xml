@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_decrypt_form" kind="class" language="C++" prot="public">
+    <compoundname>DecryptForm</compoundname>
+    <basecompoundref refid="class_q_widget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="decryptform_8h" local="no">decryptform.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_decrypt_form_1acd9c3d0ece7d8dd401b4fbfdfa33849a" prot="private" static="no" mutable="no">
+        <type>Ui::DecryptForm *</type>
+        <definition>Ui::DecryptForm* DecryptForm::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="24" column="1" bodyfile="decryptform.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1a1b7bfb2bf595cd6ce52c7df0a1237b67" prot="private" static="no" mutable="no">
+        <type><ref refid="class_core" kindref="compound">Core</ref></type>
+        <definition>Core DecryptForm::core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="25" column="1" bodyfile="decryptform.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1abd35803869d8ca2eb83777a39ac46fcb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DecryptForm::attempts</definition>
+        <argsstring></argsstring>
+        <name>attempts</name>
+        <initializer>=5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="30" column="1" bodyfile="decryptform.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_decrypt_form_1a16c208fef98e40521b962932602ce0ff" prot="protected" static="no" mutable="no">
+        <type>QStringList</type>
+        <definition>QStringList DecryptForm::dataLine</definition>
+        <argsstring></argsstring>
+        <name>dataLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="33" column="1" bodyfile="decryptform.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1a948100789ce9a1613fc4e028609d7f7d" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DecryptForm::fileEx</definition>
+        <argsstring></argsstring>
+        <name>fileEx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="34" column="1" bodyfile="decryptform.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1af0a16237e0a531f3167acd67eae7e69b" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DecryptForm::createD</definition>
+        <argsstring></argsstring>
+        <name>createD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="35" column="1" bodyfile="decryptform.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1a9b9b4da9c4713812a4ef07e8e60dd25a" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DecryptForm::userKey</definition>
+        <argsstring></argsstring>
+        <name>userKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="36" column="1" bodyfile="decryptform.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1a2a575d06f53701521157379069b573f0" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DecryptForm::prime1</definition>
+        <argsstring></argsstring>
+        <name>prime1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="37" column="1" bodyfile="decryptform.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1ac9b5eaa528b2826f3926e410e6ffa967" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DecryptForm::prime2</definition>
+        <argsstring></argsstring>
+        <name>prime2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="38" column="1" bodyfile="decryptform.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1ac0a3281de07c0e2b461652ce12b1ada2" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DecryptForm::expire</definition>
+        <argsstring></argsstring>
+        <name>expire</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="39" column="1" bodyfile="decryptform.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1ada58fe6ec6a6c8204e30dfdbb9e55bbe" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DecryptForm::maxView</definition>
+        <argsstring></argsstring>
+        <name>maxView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="40" column="1" bodyfile="decryptform.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1a6363fdac4c8f9ebbdc902f1b8e3686a3" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DecryptForm::viewC</definition>
+        <argsstring></argsstring>
+        <name>viewC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="41" column="1" bodyfile="decryptform.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_decrypt_form_1a64370269794155fc85fafa42a1d31913" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DecryptForm::lastView</definition>
+        <argsstring></argsstring>
+        <name>lastView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="42" column="1" bodyfile="decryptform.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">~DecryptForm</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_decrypt_form_1adedf517dfb4bb9411c4caf92943e7033" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DecryptForm::DecryptForm</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>DecryptForm</name>
+        <param>
+          <type><ref refid="class_q_widget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="15" column="1" bodyfile="decryptform.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DecryptForm::~DecryptForm</definition>
+        <argsstring>()</argsstring>
+        <name>~DecryptForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="16" column="1" bodyfile="decryptform.cpp" bodystart="12" bodyend="14"/>
+        <references refid="class_core_1adf62d4f996b0cb94dba269110b136dc1" compoundref="core_8cpp" startline="50" endline="52">Core::showFiledialog</references>
+        <references refid="class_core_1a97c1ce83217497c5000ab5454628b7b2" compoundref="core_8cpp" startline="57" endline="60">Core::isFileAvailable</references>
+        <references refid="class_core_1ad3503f8f37ca8f8f31bbdefb273a9f78" compoundref="core_8cpp" startline="46" endline="49">Core::showForm</references>
+        <references refid="class_core_1aa75cf5dbf2f48a261a8596c42cf99946" compoundref="core_8cpp" startline="53" endline="55">Core::getFilename</references>
+        <references refid="class_decrypt_form_1a16c208fef98e40521b962932602ce0ff" compoundref="decryptform_8h" startline="33">dataLine</references>
+        <references refid="class_encryption_1a737b60a95e826d7a99a3a3f62c9889d2" compoundref="encryption_8cpp" startline="51" endline="61">Encryption::generateKeys</references>
+        <references refid="class_encryption_1ab182872a04d40023eebb199abfe81896" compoundref="encryption_8cpp" startline="103" endline="105">Encryption::getSysPrime1</references>
+        <references refid="class_encryption_1a4a18c3b332487ec393c3ddf06c39c48f" compoundref="encryption_8cpp" startline="107" endline="109">Encryption::getSysPrime2</references>
+        <references refid="class_encryption_1aa52a864985f89af118c61a4a3173fd72" compoundref="encryption_8cpp" startline="92" endline="101">Encryption::decrypt</references>
+        <references refid="class_decrypt_form_1a2a575d06f53701521157379069b573f0" compoundref="decryptform_8h" startline="37">prime1</references>
+        <references refid="class_decrypt_form_1ac9b5eaa528b2826f3926e410e6ffa967" compoundref="decryptform_8h" startline="38">prime2</references>
+        <references refid="class_decrypt_form_1a9b9b4da9c4713812a4ef07e8e60dd25a" compoundref="decryptform_8h" startline="36">userKey</references>
+        <references refid="class_decrypt_form_1a948100789ce9a1613fc4e028609d7f7d" compoundref="decryptform_8h" startline="34">fileEx</references>
+        <references refid="class_decrypt_form_1af0a16237e0a531f3167acd67eae7e69b" compoundref="decryptform_8h" startline="35">createD</references>
+        <references refid="class_decrypt_form_1ac0a3281de07c0e2b461652ce12b1ada2" compoundref="decryptform_8h" startline="39">expire</references>
+        <references refid="class_decrypt_form_1ada58fe6ec6a6c8204e30dfdbb9e55bbe" compoundref="decryptform_8h" startline="40">maxView</references>
+        <references refid="class_decrypt_form_1a6363fdac4c8f9ebbdc902f1b8e3686a3" compoundref="decryptform_8h" startline="41">viewC</references>
+        <references refid="class_decrypt_form_1a64370269794155fc85fafa42a1d31913" compoundref="decryptform_8h" startline="42">lastView</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_decrypt_form_1aad36499e8f365a1a702b5d1eabc00091" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecryptForm::on_btnHome_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_btnHome_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="19" column="1" bodyfile="decryptform.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_decrypt_form_1acee694a4017696bd8c8a91567c1761cc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecryptForm::on_btnBrowse_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_btnBrowse_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="20" column="1" bodyfile="decryptform.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_decrypt_form_1a5bd248791669612f3233853614d78319" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecryptForm::on_btnDecrypt_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_btnDecrypt_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="21" column="1" bodyfile="decryptform.cpp" bodystart="89" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_decrypt_form_1a5e3bdaae46c433dc7d9ba68bee2dd556" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecryptForm::readFile</definition>
+        <argsstring>()</argsstring>
+        <name>readFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="26" column="1" bodyfile="decryptform.cpp" bodystart="25" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_decrypt_form_1a87da8d292990129f4787b7176c586137" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString DecryptForm::decryptSettings</definition>
+        <argsstring>()</argsstring>
+        <name>decryptSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="27" column="1" bodyfile="decryptform.cpp" bodystart="42" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_decrypt_form_1a249b3e944df8b5257eee1f3e957400c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString DecryptForm::decryptData</definition>
+        <argsstring>()</argsstring>
+        <name>decryptData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="28" column="1" bodyfile="decryptform.cpp" bodystart="62" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_decrypt_form_1a176ca604fcb06638f9a26f3987128389" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecryptForm::storeSettings</definition>
+        <argsstring>()</argsstring>
+        <name>storeSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="decryptform.h" line="29" column="1" bodyfile="decryptform.cpp" bodystart="105" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>DecryptForm</label>
+        <link refid="class_decrypt_form"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>QWidget</label>
+        <link refid="class_q_widget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>DecryptForm</label>
+        <link refid="class_decrypt_form"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>#expire</edgelabel>
+          <edgelabel>#createD</edgelabel>
+          <edgelabel>#prime1</edgelabel>
+          <edgelabel>#prime2</edgelabel>
+          <edgelabel>#lastView</edgelabel>
+          <edgelabel>#viewC</edgelabel>
+          <edgelabel>#maxView</edgelabel>
+          <edgelabel>#userKey</edgelabel>
+          <edgelabel>#fileEx</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>#dataLine</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>QWidget</label>
+        <link refid="class_q_widget"/>
+      </node>
+      <node id="8">
+        <label>QString</label>
+      </node>
+      <node id="9">
+        <label>QStringList</label>
+      </node>
+    </collaborationgraph>
+    <location file="decryptform.h" line="11" column="1" bodyfile="decryptform.h" bodystart="11" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_decrypt_form_1abd35803869d8ca2eb83777a39ac46fcb" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>attempts</name></member>
+      <member refid="class_decrypt_form_1a1b7bfb2bf595cd6ce52c7df0a1237b67" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>core</name></member>
+      <member refid="class_decrypt_form_1af0a16237e0a531f3167acd67eae7e69b" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>createD</name></member>
+      <member refid="class_decrypt_form_1a16c208fef98e40521b962932602ce0ff" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>dataLine</name></member>
+      <member refid="class_decrypt_form_1a249b3e944df8b5257eee1f3e957400c8" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>decryptData</name></member>
+      <member refid="class_decrypt_form_1adedf517dfb4bb9411c4caf92943e7033" prot="public" virt="non-virtual"><scope>DecryptForm</scope><name>DecryptForm</name></member>
+      <member refid="class_decrypt_form_1a87da8d292990129f4787b7176c586137" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>decryptSettings</name></member>
+      <member refid="class_decrypt_form_1ac0a3281de07c0e2b461652ce12b1ada2" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>expire</name></member>
+      <member refid="class_decrypt_form_1a948100789ce9a1613fc4e028609d7f7d" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>fileEx</name></member>
+      <member refid="class_decrypt_form_1a64370269794155fc85fafa42a1d31913" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>lastView</name></member>
+      <member refid="class_decrypt_form_1ada58fe6ec6a6c8204e30dfdbb9e55bbe" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>maxView</name></member>
+      <member refid="class_decrypt_form_1acee694a4017696bd8c8a91567c1761cc" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>on_btnBrowse_clicked</name></member>
+      <member refid="class_decrypt_form_1a5bd248791669612f3233853614d78319" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>on_btnDecrypt_clicked</name></member>
+      <member refid="class_decrypt_form_1aad36499e8f365a1a702b5d1eabc00091" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>on_btnHome_clicked</name></member>
+      <member refid="class_decrypt_form_1a2a575d06f53701521157379069b573f0" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>prime1</name></member>
+      <member refid="class_decrypt_form_1ac9b5eaa528b2826f3926e410e6ffa967" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>prime2</name></member>
+      <member refid="class_decrypt_form_1a5e3bdaae46c433dc7d9ba68bee2dd556" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>readFile</name></member>
+      <member refid="class_decrypt_form_1a176ca604fcb06638f9a26f3987128389" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>storeSettings</name></member>
+      <member refid="class_decrypt_form_1acd9c3d0ece7d8dd401b4fbfdfa33849a" prot="private" virt="non-virtual"><scope>DecryptForm</scope><name>ui</name></member>
+      <member refid="class_decrypt_form_1a9b9b4da9c4713812a4ef07e8e60dd25a" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>userKey</name></member>
+      <member refid="class_decrypt_form_1a6363fdac4c8f9ebbdc902f1b8e3686a3" prot="protected" virt="non-virtual"><scope>DecryptForm</scope><name>viewC</name></member>
+      <member refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" prot="public" virt="non-virtual"><scope>DecryptForm</scope><name>~DecryptForm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

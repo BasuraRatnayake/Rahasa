@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_start_up" kind="class" language="C++" prot="public">
+    <compoundname>StartUp</compoundname>
+    <basecompoundref refid="class_q_widget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="startup_8h" local="no">startup.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_start_up_1a5f34da7c411e7926410509f855971c83" prot="private" static="no" mutable="no">
+        <type>Ui::StartUp *</type>
+        <definition>Ui::StartUp* StartUp::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startup.h" line="23" column="1" bodyfile="startup.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_start_up_1a4261478698189dc63bb3792872d1cc2b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_core" kindref="compound">Core</ref></type>
+        <definition>Core StartUp::core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startup.h" line="24" column="1" bodyfile="startup.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_start_up_1a8df20d71c2bed10b67875067eb8d67a4" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StartUp::StartUp</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>StartUp</name>
+        <param>
+          <type><ref refid="class_q_widget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startup.h" line="15" column="1" bodyfile="startup.cpp" bodystart="7" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_start_up_1aec41633191799fe596459a1a47fe03c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StartUp::~StartUp</definition>
+        <argsstring>()</argsstring>
+        <name>~StartUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startup.h" line="16" column="1" bodyfile="startup.cpp" bodystart="11" bodyend="13"/>
+        <references refid="class_core_1ad3503f8f37ca8f8f31bbdefb273a9f78" compoundref="core_8cpp" startline="46" endline="49">Core::showForm</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_start_up_1a4a5fc1eced6884fc5c971a5ee348b949" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartUp::on_btnEnter_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_btnEnter_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startup.h" line="19" column="1" bodyfile="startup.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_start_up_1a4f623ea4dc71916506cfffc57fb65fe4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartUp::on_btnRTruth_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_btnRTruth_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startup.h" line="20" column="1" bodyfile="startup.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>StartUp</label>
+        <link refid="class_start_up"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>QWidget</label>
+        <link refid="class_q_widget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="24">
+        <label>StartUp</label>
+        <link refid="class_start_up"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>QWidget</label>
+        <link refid="class_q_widget"/>
+      </node>
+    </collaborationgraph>
+    <location file="startup.h" line="11" column="1" bodyfile="startup.h" bodystart="11" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_start_up_1a4261478698189dc63bb3792872d1cc2b" prot="private" virt="non-virtual"><scope>StartUp</scope><name>core</name></member>
+      <member refid="class_start_up_1a4a5fc1eced6884fc5c971a5ee348b949" prot="private" virt="non-virtual"><scope>StartUp</scope><name>on_btnEnter_clicked</name></member>
+      <member refid="class_start_up_1a4f623ea4dc71916506cfffc57fb65fe4" prot="private" virt="non-virtual"><scope>StartUp</scope><name>on_btnRTruth_clicked</name></member>
+      <member refid="class_start_up_1a8df20d71c2bed10b67875067eb8d67a4" prot="public" virt="non-virtual"><scope>StartUp</scope><name>StartUp</name></member>
+      <member refid="class_start_up_1a5f34da7c411e7926410509f855971c83" prot="private" virt="non-virtual"><scope>StartUp</scope><name>ui</name></member>
+      <member refid="class_start_up_1aec41633191799fe596459a1a47fe03c3" prot="public" virt="non-virtual"><scope>StartUp</scope><name>~StartUp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

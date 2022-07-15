@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_encrypt_form" kind="class" language="C++" prot="public">
+    <compoundname>EncryptForm</compoundname>
+    <basecompoundref refid="class_q_widget" prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="encryptform_8h" local="no">encryptform.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_encrypt_form_1a1ab113d79035ae8c7de058eddcda1e9e" prot="private" static="no" mutable="no">
+        <type>Ui::EncryptForm *</type>
+        <definition>Ui::EncryptForm* EncryptForm::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="28" column="1" bodyfile="encryptform.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_encrypt_form_1a75c30dd0f518415e4cc7a63929991e0a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_core" kindref="compound">Core</ref></type>
+        <definition>Core EncryptForm::core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="29" column="1" bodyfile="encryptform.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_encrypt_form_1ac5cb0365d73aa360d7aba3a3ceab3d5b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EncryptForm::EncryptForm</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>EncryptForm</name>
+        <param>
+          <type><ref refid="class_q_widget" kindref="compound">QWidget</ref> *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="15" column="1" bodyfile="encryptform.cpp" bodystart="7" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EncryptForm::~EncryptForm</definition>
+        <argsstring>()</argsstring>
+        <name>~EncryptForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="16" column="1" bodyfile="encryptform.cpp" bodystart="16" bodyend="18"/>
+        <references refid="class_core_1ad3503f8f37ca8f8f31bbdefb273a9f78" compoundref="core_8cpp" startline="46" endline="49">Core::showForm</references>
+        <references refid="class_core_1adf62d4f996b0cb94dba269110b136dc1" compoundref="core_8cpp" startline="50" endline="52">Core::showFiledialog</references>
+        <references refid="class_core_1a97c1ce83217497c5000ab5454628b7b2" compoundref="core_8cpp" startline="57" endline="60">Core::isFileAvailable</references>
+        <references refid="class_encryption_1a8ddf113b231bf2f60d5714cdf0d07857" compoundref="encryption_8cpp" startline="20" endline="22">Encryption::setPassword</references>
+        <references refid="class_encryption_1a4e2cab5c9d5349f085d40c8373b1985b" compoundref="encryption_8cpp" startline="8" endline="18">Encryption::generatePassword</references>
+        <references refid="class_encryption_1a55e34ee5668779c478f5771d24c2b183" compoundref="encryption_8cpp" startline="23" endline="25">Encryption::getPassword</references>
+        <references refid="class_core_1a3f943c730fb3d550dd4d7f82667beebb" compoundref="core_8cpp" startline="71" endline="73">Core::copyToClipboard</references>
+        <references refid="class_core_1aa75cf5dbf2f48a261a8596c42cf99946" compoundref="core_8cpp" startline="53" endline="55">Core::getFilename</references>
+        <references refid="class_encryption_1a737b60a95e826d7a99a3a3f62c9889d2" compoundref="encryption_8cpp" startline="51" endline="61">Encryption::generateKeys</references>
+        <references refid="class_encryption_1af133b980f6daf0548a7097623ed35b10" compoundref="encryption_8cpp" startline="63" endline="65">Encryption::getPrime1</references>
+        <references refid="class_encryption_1ab4089ae7185f6c10fcea6b6d697872c2" compoundref="encryption_8cpp" startline="67" endline="69">Encryption::getPrime2</references>
+        <references refid="class_encryption_1a764237662a4daa19502e6454126fa279" compoundref="encryption_8cpp" startline="81" endline="90">Encryption::encrypt</references>
+        <references refid="class_encryption_1ab182872a04d40023eebb199abfe81896" compoundref="encryption_8cpp" startline="103" endline="105">Encryption::getSysPrime1</references>
+        <references refid="class_encryption_1a4a18c3b332487ec393c3ddf06c39c48f" compoundref="encryption_8cpp" startline="107" endline="109">Encryption::getSysPrime2</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_encrypt_form_1a44fba8c737b851df13a6a32e8e3fd505" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EncryptForm::on_btnHome_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_btnHome_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="19" column="1" bodyfile="encryptform.cpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_encrypt_form_1ad11588abe31048799d498a23e6ec6318" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EncryptForm::on_btnBrowse_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_btnBrowse_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="20" column="1" bodyfile="encryptform.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_encrypt_form_1a173d61677bb4df67874706f6b30ce404" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EncryptForm::on_btnGenPass_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_btnGenPass_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="21" column="1" bodyfile="encryptform.cpp" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_encrypt_form_1ac9866ef72e912dc4b7bb8de40d8ec97d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EncryptForm::on_chkViews_stateChanged</definition>
+        <argsstring>()</argsstring>
+        <name>on_chkViews_stateChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="22" column="1" bodyfile="encryptform.cpp" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_encrypt_form_1a9df82a09f391aca24d6532135106f01d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EncryptForm::on_chkTime_stateChanged</definition>
+        <argsstring>()</argsstring>
+        <name>on_chkTime_stateChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="23" column="1" bodyfile="encryptform.cpp" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_encrypt_form_1a9cdd42f9234d43d651bf85eef502e398" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EncryptForm::on_btnEncrypt_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_btnEncrypt_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="24" column="1" bodyfile="encryptform.cpp" bodystart="55" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_encrypt_form_1a1bc377a1990997c680670c7accaf8f78" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EncryptForm::on_le_pass_textChanged</definition>
+        <argsstring>()</argsstring>
+        <name>on_le_pass_textChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryptform.h" line="25" column="1" bodyfile="encryptform.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>EncryptForm</label>
+        <link refid="class_encrypt_form"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>QWidget</label>
+        <link refid="class_q_widget"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>EncryptForm</label>
+        <link refid="class_encrypt_form"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>QWidget</label>
+        <link refid="class_q_widget"/>
+      </node>
+    </collaborationgraph>
+    <location file="encryptform.h" line="11" column="1" bodyfile="encryptform.h" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_encrypt_form_1a75c30dd0f518415e4cc7a63929991e0a" prot="private" virt="non-virtual"><scope>EncryptForm</scope><name>core</name></member>
+      <member refid="class_encrypt_form_1ac5cb0365d73aa360d7aba3a3ceab3d5b" prot="public" virt="non-virtual"><scope>EncryptForm</scope><name>EncryptForm</name></member>
+      <member refid="class_encrypt_form_1ad11588abe31048799d498a23e6ec6318" prot="private" virt="non-virtual"><scope>EncryptForm</scope><name>on_btnBrowse_clicked</name></member>
+      <member refid="class_encrypt_form_1a9cdd42f9234d43d651bf85eef502e398" prot="private" virt="non-virtual"><scope>EncryptForm</scope><name>on_btnEncrypt_clicked</name></member>
+      <member refid="class_encrypt_form_1a173d61677bb4df67874706f6b30ce404" prot="private" virt="non-virtual"><scope>EncryptForm</scope><name>on_btnGenPass_clicked</name></member>
+      <member refid="class_encrypt_form_1a44fba8c737b851df13a6a32e8e3fd505" prot="private" virt="non-virtual"><scope>EncryptForm</scope><name>on_btnHome_clicked</name></member>
+      <member refid="class_encrypt_form_1a9df82a09f391aca24d6532135106f01d" prot="private" virt="non-virtual"><scope>EncryptForm</scope><name>on_chkTime_stateChanged</name></member>
+      <member refid="class_encrypt_form_1ac9866ef72e912dc4b7bb8de40d8ec97d" prot="private" virt="non-virtual"><scope>EncryptForm</scope><name>on_chkViews_stateChanged</name></member>
+      <member refid="class_encrypt_form_1a1bc377a1990997c680670c7accaf8f78" prot="private" virt="non-virtual"><scope>EncryptForm</scope><name>on_le_pass_textChanged</name></member>
+      <member refid="class_encrypt_form_1a1ab113d79035ae8c7de058eddcda1e9e" prot="private" virt="non-virtual"><scope>EncryptForm</scope><name>ui</name></member>
+      <member refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" prot="public" virt="non-virtual"><scope>EncryptForm</scope><name>~EncryptForm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

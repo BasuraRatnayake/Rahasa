@@ -1,0 +1,90 @@
+.TH "Core" 3 "Fri Dec 23 2016" "Version 1.0.0.0" "Rahasa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Core \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <core\&.h>\fP
+.PP
+Inherits \fBEncryption\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCore\fP ()"
+.br
+.ti -1c
+.RI "void \fBshowForm\fP (\fBQWidget\fP *, \fBQWidget\fP *)"
+.br
+.ti -1c
+.RI "void \fBshowFiledialog\fP (\fBQWidget\fP *, QString)"
+.br
+.ti -1c
+.RI "QString \fBgetFilename\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisFileAvailable\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisFileAvailable\fP (\fBQWidget\fP *, QLineEdit *)"
+.br
+.ti -1c
+.RI "void \fBcopyToClipboard\fP (QString)"
+.br
+.ti -1c
+.RI "void \fBzip\fP (QString, QString)"
+.br
+.ti -1c
+.RI "void \fBunZip\fP (QString, QString)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 13 of file core\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Core::Core ()"
+
+.PP
+Definition at line 3 of file core\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Core::copyToClipboard (QString text)"
+
+.PP
+Definition at line 71 of file core\&.cpp\&.
+.SS "QString Core::getFilename ()"
+
+.PP
+Definition at line 53 of file core\&.cpp\&.
+.SS "bool Core::isFileAvailable ()"
+
+.PP
+Definition at line 57 of file core\&.cpp\&.
+.SS "bool Core::isFileAvailable (\fBQWidget\fP * belongForm, QLineEdit * label)"
+
+.PP
+Definition at line 62 of file core\&.cpp\&.
+.SS "void Core::showFiledialog (\fBQWidget\fP * belongForm, QString title)"
+
+.PP
+Definition at line 50 of file core\&.cpp\&.
+.SS "void Core::showForm (\fBQWidget\fP * formToShow, \fBQWidget\fP * formToHide)"
+
+.PP
+Definition at line 46 of file core\&.cpp\&.
+.SS "void Core::unZip (QString zip_filename, QString filename)"
+
+.PP
+Definition at line 29 of file core\&.cpp\&.
+.SS "void Core::zip (QString filename, QString zip_filename)"
+
+.PP
+Definition at line 6 of file core\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rahasa from the source code\&.

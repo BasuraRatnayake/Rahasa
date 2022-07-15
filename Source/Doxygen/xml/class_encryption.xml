@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_encryption" kind="class" language="C++" prot="public">
+    <compoundname>Encryption</compoundname>
+    <derivedcompoundref refid="class_core" prot="public" virt="non-virtual">Core</derivedcompoundref>
+    <includes refid="encryption_8h" local="no">encryption.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_encryption_1ae41342c9fd900eae223b638f7fc9ca8b" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Encryption::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="21" column="1" bodyfile="encryption.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_encryption_1a90f08f7b9c8d3883e62b49e8a34e0a38" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Encryption::prime1</definition>
+        <argsstring></argsstring>
+        <name>prime1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="24" column="1" bodyfile="encryption.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_encryption_1a5d72eca81b43065f4dc31a4de99ca5ca" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Encryption::prime2</definition>
+        <argsstring></argsstring>
+        <name>prime2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="25" column="1" bodyfile="encryption.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_encryption_1afa6a7dbb35f540a83728e1e51b0ebc21" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Encryption::systemPrime1</definition>
+        <argsstring></argsstring>
+        <name>systemPrime1</name>
+        <initializer>= 199102</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="28" column="1" bodyfile="encryption.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_encryption_1a81d87574e37b71b2b78168772ecdc0b2" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Encryption::systemPrime2</definition>
+        <argsstring></argsstring>
+        <name>systemPrime2</name>
+        <initializer>= 123075</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="29" column="1" bodyfile="encryption.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_encryption_1a705103f49108e659248ba0f9b4af8c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Encryption::Encryption</definition>
+        <argsstring>()</argsstring>
+        <name>Encryption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="8" column="1" bodyfile="encryption.cpp" bodystart="4" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1a4e2cab5c9d5349f085d40c8373b1985b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Encryption::generatePassword</definition>
+        <argsstring>(int)</argsstring>
+        <name>generatePassword</name>
+        <param>
+          <type>int</type>
+          <defname>length</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="9" column="1" bodyfile="encryption.cpp" bodystart="8" bodyend="18"/>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1a8ddf113b231bf2f60d5714cdf0d07857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Encryption::setPassword</definition>
+        <argsstring>(QString)</argsstring>
+        <name>setPassword</name>
+        <param>
+          <type>QString</type>
+          <defname>password</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="10" column="1" bodyfile="encryption.cpp" bodystart="20" bodyend="22"/>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1a55e34ee5668779c478f5771d24c2b183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Encryption::getPassword</definition>
+        <argsstring>()</argsstring>
+        <name>getPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="11" column="1" bodyfile="encryption.cpp" bodystart="23" bodyend="25"/>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1a764237662a4daa19502e6454126fa279" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Encryption::encrypt</definition>
+        <argsstring>(QString)</argsstring>
+        <name>encrypt</name>
+        <param>
+          <type>QString</type>
+          <defname>text</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="12" column="1" bodyfile="encryption.cpp" bodystart="81" bodyend="90"/>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1aa52a864985f89af118c61a4a3173fd72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Encryption::decrypt</definition>
+        <argsstring>(QString)</argsstring>
+        <name>decrypt</name>
+        <param>
+          <type>QString</type>
+          <defname>text</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="13" column="1" bodyfile="encryption.cpp" bodystart="92" bodyend="101"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">DecryptForm::~DecryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1a737b60a95e826d7a99a3a3f62c9889d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Encryption::generateKeys</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>generateKeys</name>
+        <param>
+          <type>int</type>
+          <defname>p1</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>p2</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="14" column="1" bodyfile="encryption.cpp" bodystart="51" bodyend="61"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">DecryptForm::~DecryptForm</referencedby>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1af133b980f6daf0548a7097623ed35b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Encryption::getPrime1</definition>
+        <argsstring>()</argsstring>
+        <name>getPrime1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="15" column="1" bodyfile="encryption.cpp" bodystart="63" bodyend="65"/>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1ab4089ae7185f6c10fcea6b6d697872c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Encryption::getPrime2</definition>
+        <argsstring>()</argsstring>
+        <name>getPrime2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="16" column="1" bodyfile="encryption.cpp" bodystart="67" bodyend="69"/>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1ab182872a04d40023eebb199abfe81896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Encryption::getSysPrime1</definition>
+        <argsstring>()</argsstring>
+        <name>getSysPrime1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="17" column="1" bodyfile="encryption.cpp" bodystart="103" bodyend="105"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">DecryptForm::~DecryptForm</referencedby>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1a4a18c3b332487ec393c3ddf06c39c48f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Encryption::getSysPrime2</definition>
+        <argsstring>()</argsstring>
+        <name>getSysPrime2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="18" column="1" bodyfile="encryption.cpp" bodystart="107" bodyend="109"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">DecryptForm::~DecryptForm</referencedby>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_encryption_1a2df8850a541b2c37f5e25abc4af082f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Encryption::isPrime</definition>
+        <argsstring>(unsigned long long)</argsstring>
+        <name>isPrime</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>long</declname>
+          <defname>num</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="22" column="1" bodyfile="encryption.cpp" bodystart="27" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1aedd3f183273ee3260e87298ba44f4749" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long long</type>
+        <definition>unsigned long long Encryption::getRandomPrime</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>getRandomPrime</name>
+        <param>
+          <type>int</type>
+          <defname>lower</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>upper</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="23" column="1" bodyfile="encryption.cpp" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1ae475c8465b61eb8506180188cd088356" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Encryption::useEquation</definition>
+        <argsstring>(int)</argsstring>
+        <name>useEquation</name>
+        <param>
+          <type>int</type>
+          <defname>asciIndex</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="26" column="1" bodyfile="encryption.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_encryption_1aa422cb126a6a02622ed66ccc4ef34bdd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Encryption::reverseEquation</definition>
+        <argsstring>(int)</argsstring>
+        <name>reverseEquation</name>
+        <param>
+          <type>int</type>
+          <defname>eq</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="encryption.h" line="27" column="1" bodyfile="encryption.cpp" bodystart="76" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="15">
+        <label>Core</label>
+        <link refid="class_core"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Encryption</label>
+        <link refid="class_encryption"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>Encryption</label>
+        <link refid="class_encryption"/>
+      </node>
+    </collaborationgraph>
+    <location file="encryption.h" line="6" column="1" bodyfile="encryption.h" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_encryption_1aa52a864985f89af118c61a4a3173fd72" prot="public" virt="non-virtual"><scope>Encryption</scope><name>decrypt</name></member>
+      <member refid="class_encryption_1a764237662a4daa19502e6454126fa279" prot="public" virt="non-virtual"><scope>Encryption</scope><name>encrypt</name></member>
+      <member refid="class_encryption_1a705103f49108e659248ba0f9b4af8c00" prot="public" virt="non-virtual"><scope>Encryption</scope><name>Encryption</name></member>
+      <member refid="class_encryption_1a737b60a95e826d7a99a3a3f62c9889d2" prot="public" virt="non-virtual"><scope>Encryption</scope><name>generateKeys</name></member>
+      <member refid="class_encryption_1a4e2cab5c9d5349f085d40c8373b1985b" prot="public" virt="non-virtual"><scope>Encryption</scope><name>generatePassword</name></member>
+      <member refid="class_encryption_1a55e34ee5668779c478f5771d24c2b183" prot="public" virt="non-virtual"><scope>Encryption</scope><name>getPassword</name></member>
+      <member refid="class_encryption_1af133b980f6daf0548a7097623ed35b10" prot="public" virt="non-virtual"><scope>Encryption</scope><name>getPrime1</name></member>
+      <member refid="class_encryption_1ab4089ae7185f6c10fcea6b6d697872c2" prot="public" virt="non-virtual"><scope>Encryption</scope><name>getPrime2</name></member>
+      <member refid="class_encryption_1aedd3f183273ee3260e87298ba44f4749" prot="private" virt="non-virtual"><scope>Encryption</scope><name>getRandomPrime</name></member>
+      <member refid="class_encryption_1ab182872a04d40023eebb199abfe81896" prot="public" virt="non-virtual"><scope>Encryption</scope><name>getSysPrime1</name></member>
+      <member refid="class_encryption_1a4a18c3b332487ec393c3ddf06c39c48f" prot="public" virt="non-virtual"><scope>Encryption</scope><name>getSysPrime2</name></member>
+      <member refid="class_encryption_1a2df8850a541b2c37f5e25abc4af082f0" prot="private" virt="non-virtual"><scope>Encryption</scope><name>isPrime</name></member>
+      <member refid="class_encryption_1ae41342c9fd900eae223b638f7fc9ca8b" prot="private" virt="non-virtual"><scope>Encryption</scope><name>password</name></member>
+      <member refid="class_encryption_1a90f08f7b9c8d3883e62b49e8a34e0a38" prot="private" virt="non-virtual"><scope>Encryption</scope><name>prime1</name></member>
+      <member refid="class_encryption_1a5d72eca81b43065f4dc31a4de99ca5ca" prot="private" virt="non-virtual"><scope>Encryption</scope><name>prime2</name></member>
+      <member refid="class_encryption_1aa422cb126a6a02622ed66ccc4ef34bdd" prot="private" virt="non-virtual"><scope>Encryption</scope><name>reverseEquation</name></member>
+      <member refid="class_encryption_1a8ddf113b231bf2f60d5714cdf0d07857" prot="public" virt="non-virtual"><scope>Encryption</scope><name>setPassword</name></member>
+      <member refid="class_encryption_1afa6a7dbb35f540a83728e1e51b0ebc21" prot="private" virt="non-virtual"><scope>Encryption</scope><name>systemPrime1</name></member>
+      <member refid="class_encryption_1a81d87574e37b71b2b78168772ecdc0b2" prot="private" virt="non-virtual"><scope>Encryption</scope><name>systemPrime2</name></member>
+      <member refid="class_encryption_1ae475c8465b61eb8506180188cd088356" prot="private" virt="non-virtual"><scope>Encryption</scope><name>useEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

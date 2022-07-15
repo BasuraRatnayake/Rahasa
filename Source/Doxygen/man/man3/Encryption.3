@@ -1,0 +1,104 @@
+.TH "Encryption" 3 "Fri Dec 23 2016" "Version 1.0.0.0" "Rahasa" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Encryption \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <encryption\&.h>\fP
+.PP
+Inherited by \fBCore\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEncryption\fP ()"
+.br
+.ti -1c
+.RI "QString \fBgeneratePassword\fP (int)"
+.br
+.ti -1c
+.RI "void \fBsetPassword\fP (QString)"
+.br
+.ti -1c
+.RI "QString \fBgetPassword\fP ()"
+.br
+.ti -1c
+.RI "QString \fBencrypt\fP (QString)"
+.br
+.ti -1c
+.RI "QString \fBdecrypt\fP (QString)"
+.br
+.ti -1c
+.RI "void \fBgenerateKeys\fP (int, int)"
+.br
+.ti -1c
+.RI "int \fBgetPrime1\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetPrime2\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetSysPrime1\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetSysPrime2\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file encryption\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Encryption::Encryption ()"
+
+.PP
+Definition at line 4 of file encryption\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "QString Encryption::decrypt (QString text)"
+
+.PP
+Definition at line 92 of file encryption\&.cpp\&.
+.SS "QString Encryption::encrypt (QString text)"
+
+.PP
+Definition at line 81 of file encryption\&.cpp\&.
+.SS "void Encryption::generateKeys (int p1 = \fC0\fP, int p2 = \fC0\fP)"
+
+.PP
+Definition at line 51 of file encryption\&.cpp\&.
+.SS "QString Encryption::generatePassword (int length)"
+
+.PP
+Definition at line 8 of file encryption\&.cpp\&.
+.SS "QString Encryption::getPassword ()"
+
+.PP
+Definition at line 23 of file encryption\&.cpp\&.
+.SS "int Encryption::getPrime1 ()"
+
+.PP
+Definition at line 63 of file encryption\&.cpp\&.
+.SS "int Encryption::getPrime2 ()"
+
+.PP
+Definition at line 67 of file encryption\&.cpp\&.
+.SS "int Encryption::getSysPrime1 ()"
+
+.PP
+Definition at line 103 of file encryption\&.cpp\&.
+.SS "int Encryption::getSysPrime2 ()"
+
+.PP
+Definition at line 107 of file encryption\&.cpp\&.
+.SS "void Encryption::setPassword (QString password)"
+
+.PP
+Definition at line 20 of file encryption\&.cpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Rahasa from the source code\&.

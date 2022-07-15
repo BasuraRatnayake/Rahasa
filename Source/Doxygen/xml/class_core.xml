@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_core" kind="class" language="C++" prot="public">
+    <compoundname>Core</compoundname>
+    <basecompoundref refid="class_encryption" prot="public" virt="non-virtual">Encryption</basecompoundref>
+    <includes refid="core_8h" local="no">core.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_1a6e6238547c93a99f29e6a15d4f6c903b" prot="private" static="no" mutable="no">
+        <type>QFileDialog</type>
+        <definition>QFileDialog Core::fileDialog</definition>
+        <argsstring></argsstring>
+        <name>fileDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="26" column="1" bodyfile="core.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1a5e5b7ef9adc824a996a5cc3489cd217c" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Core::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="27" column="1" bodyfile="core.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1ac58c45ae8ee7344a8bf8669e2f5de2ba" prot="private" static="no" mutable="no">
+        <type>QClipboard *</type>
+        <definition>QClipboard* Core::p_Clipboard</definition>
+        <argsstring></argsstring>
+        <name>p_Clipboard</name>
+        <initializer>= QApplication::clipboard()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="28" column="1" bodyfile="core.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1a14e63188e0aa7c4a6f72d5501384d1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::Core</definition>
+        <argsstring>()</argsstring>
+        <name>Core</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="15" column="1" bodyfile="core.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1ad3503f8f37ca8f8f31bbdefb273a9f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::showForm</definition>
+        <argsstring>(QWidget *, QWidget *)</argsstring>
+        <name>showForm</name>
+        <param>
+          <type><ref refid="class_q_widget" kindref="compound">QWidget</ref> *</type>
+          <defname>formToShow</defname>
+        </param>
+        <param>
+          <type><ref refid="class_q_widget" kindref="compound">QWidget</ref> *</type>
+          <defname>formToHide</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="16" column="1" bodyfile="core.cpp" bodystart="46" bodyend="49"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">DecryptForm::~DecryptForm</referencedby>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+        <referencedby refid="class_start_up_1aec41633191799fe596459a1a47fe03c3" compoundref="startup_8cpp" startline="11" endline="13">StartUp::~StartUp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1adf62d4f996b0cb94dba269110b136dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::showFiledialog</definition>
+        <argsstring>(QWidget *, QString)</argsstring>
+        <name>showFiledialog</name>
+        <param>
+          <type><ref refid="class_q_widget" kindref="compound">QWidget</ref> *</type>
+          <defname>belongForm</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>title</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="17" column="1" bodyfile="core.cpp" bodystart="50" bodyend="52"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">DecryptForm::~DecryptForm</referencedby>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1aa75cf5dbf2f48a261a8596c42cf99946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Core::getFilename</definition>
+        <argsstring>()</argsstring>
+        <name>getFilename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="18" column="1" bodyfile="core.cpp" bodystart="53" bodyend="55"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">DecryptForm::~DecryptForm</referencedby>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1a97c1ce83217497c5000ab5454628b7b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Core::isFileAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>isFileAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="19" column="1" bodyfile="core.cpp" bodystart="57" bodyend="60"/>
+        <referencedby refid="class_decrypt_form_1acbf539168ee44015720d6edb380ec4cf" compoundref="decryptform_8cpp" startline="12" endline="14">DecryptForm::~DecryptForm</referencedby>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1a87e3e55dfb83db550283f160a5f9fd76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Core::isFileAvailable</definition>
+        <argsstring>(QWidget *, QLineEdit *)</argsstring>
+        <name>isFileAvailable</name>
+        <param>
+          <type><ref refid="class_q_widget" kindref="compound">QWidget</ref> *</type>
+          <defname>belongForm</defname>
+        </param>
+        <param>
+          <type>QLineEdit *</type>
+          <defname>label</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="20" column="1" bodyfile="core.cpp" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1a3f943c730fb3d550dd4d7f82667beebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::copyToClipboard</definition>
+        <argsstring>(QString)</argsstring>
+        <name>copyToClipboard</name>
+        <param>
+          <type>QString</type>
+          <defname>text</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="21" column="1" bodyfile="core.cpp" bodystart="71" bodyend="73"/>
+        <referencedby refid="class_encrypt_form_1ae816abae02f20b132d5eee2033849342" compoundref="encryptform_8cpp" startline="16" endline="18">EncryptForm::~EncryptForm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1aa48d61e2fd30740e21ff228b8ee54dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::zip</definition>
+        <argsstring>(QString, QString)</argsstring>
+        <name>zip</name>
+        <param>
+          <type>QString</type>
+          <defname>filename</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>zip_filename</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="22" column="1" bodyfile="core.cpp" bodystart="6" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1a76ef88295ccbf20180de6273a2d387bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::unZip</definition>
+        <argsstring>(QString, QString)</argsstring>
+        <name>unZip</name>
+        <param>
+          <type>QString</type>
+          <defname>zip_filename</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>filename</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="core.h" line="23" column="1" bodyfile="core.cpp" bodystart="29" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Core</label>
+        <link refid="class_core"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Encryption</label>
+        <link refid="class_encryption"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Core</label>
+        <link refid="class_core"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Encryption</label>
+        <link refid="class_encryption"/>
+      </node>
+    </collaborationgraph>
+    <location file="core.h" line="13" column="1" bodyfile="core.h" bodystart="13" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_core_1a3f943c730fb3d550dd4d7f82667beebb" prot="public" virt="non-virtual"><scope>Core</scope><name>copyToClipboard</name></member>
+      <member refid="class_core_1a14e63188e0aa7c4a6f72d5501384d1f9" prot="public" virt="non-virtual"><scope>Core</scope><name>Core</name></member>
+      <member refid="class_encryption_1aa52a864985f89af118c61a4a3173fd72" prot="public" virt="non-virtual"><scope>Core</scope><name>decrypt</name></member>
+      <member refid="class_encryption_1a764237662a4daa19502e6454126fa279" prot="public" virt="non-virtual"><scope>Core</scope><name>encrypt</name></member>
+      <member refid="class_encryption_1a705103f49108e659248ba0f9b4af8c00" prot="public" virt="non-virtual"><scope>Core</scope><name>Encryption</name></member>
+      <member refid="class_core_1a6e6238547c93a99f29e6a15d4f6c903b" prot="private" virt="non-virtual"><scope>Core</scope><name>fileDialog</name></member>
+      <member refid="class_core_1a5e5b7ef9adc824a996a5cc3489cd217c" prot="private" virt="non-virtual"><scope>Core</scope><name>filename</name></member>
+      <member refid="class_encryption_1a737b60a95e826d7a99a3a3f62c9889d2" prot="public" virt="non-virtual"><scope>Core</scope><name>generateKeys</name></member>
+      <member refid="class_encryption_1a4e2cab5c9d5349f085d40c8373b1985b" prot="public" virt="non-virtual"><scope>Core</scope><name>generatePassword</name></member>
+      <member refid="class_core_1aa75cf5dbf2f48a261a8596c42cf99946" prot="public" virt="non-virtual"><scope>Core</scope><name>getFilename</name></member>
+      <member refid="class_encryption_1a55e34ee5668779c478f5771d24c2b183" prot="public" virt="non-virtual"><scope>Core</scope><name>getPassword</name></member>
+      <member refid="class_encryption_1af133b980f6daf0548a7097623ed35b10" prot="public" virt="non-virtual"><scope>Core</scope><name>getPrime1</name></member>
+      <member refid="class_encryption_1ab4089ae7185f6c10fcea6b6d697872c2" prot="public" virt="non-virtual"><scope>Core</scope><name>getPrime2</name></member>
+      <member refid="class_encryption_1ab182872a04d40023eebb199abfe81896" prot="public" virt="non-virtual"><scope>Core</scope><name>getSysPrime1</name></member>
+      <member refid="class_encryption_1a4a18c3b332487ec393c3ddf06c39c48f" prot="public" virt="non-virtual"><scope>Core</scope><name>getSysPrime2</name></member>
+      <member refid="class_core_1a97c1ce83217497c5000ab5454628b7b2" prot="public" virt="non-virtual"><scope>Core</scope><name>isFileAvailable</name></member>
+      <member refid="class_core_1a87e3e55dfb83db550283f160a5f9fd76" prot="public" virt="non-virtual"><scope>Core</scope><name>isFileAvailable</name></member>
+      <member refid="class_core_1ac58c45ae8ee7344a8bf8669e2f5de2ba" prot="private" virt="non-virtual"><scope>Core</scope><name>p_Clipboard</name></member>
+      <member refid="class_encryption_1a8ddf113b231bf2f60d5714cdf0d07857" prot="public" virt="non-virtual"><scope>Core</scope><name>setPassword</name></member>
+      <member refid="class_core_1adf62d4f996b0cb94dba269110b136dc1" prot="public" virt="non-virtual"><scope>Core</scope><name>showFiledialog</name></member>
+      <member refid="class_core_1ad3503f8f37ca8f8f31bbdefb273a9f78" prot="public" virt="non-virtual"><scope>Core</scope><name>showForm</name></member>
+      <member refid="class_core_1a76ef88295ccbf20180de6273a2d387bc" prot="public" virt="non-virtual"><scope>Core</scope><name>unZip</name></member>
+      <member refid="class_core_1aa48d61e2fd30740e21ff228b8ee54dc1" prot="public" virt="non-virtual"><scope>Core</scope><name>zip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
